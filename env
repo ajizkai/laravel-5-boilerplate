@@ -14,10 +14,10 @@ LOG_CHANNEL=daily
 SINGLE_LOGIN=false
 
 DB_CONNECTION=mysql
-DB_HOST=finnet2.cvxvgjm8fs34.ap-southeast-1.rds.amazonaws.com
+DB_HOST=35.240.135.233
 DB_PORT=3306
 DB_DATABASE=boilerplate
-DB_USERNAME=root
+DB_USERNAME=boilerplate
 DB_PASSWORD=idn.idn10$%
 
 BROADCAST_DRIVER=log
