@@ -13,4 +13,4 @@ COPY env laravel-5-boilerplate/.env
 RUN cd laravel-5-boilerplate && php artisan key:generate && php artisan migrate && php artisan db:seed && npm run dev && \
     php artisan storage:link
 WORKDIR laravel-5-boilerplate
-CMD php artisan serve --host=0.0.0.0 --port=8080
+ENTRYPOINT php artisan serve --host=0.0.0.0 --port=8080
